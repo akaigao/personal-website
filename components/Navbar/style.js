@@ -1,13 +1,15 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 
-export const NavbarContainer = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+export const NavbarContainer = styled.nav`
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 
-  font-size: 0.7rem;
+    font-size: 0.7rem;
+  }
 
   li {
     text-transform: uppercase;
