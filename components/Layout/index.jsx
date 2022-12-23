@@ -1,4 +1,8 @@
-import Head from "next/head";
+import Head from 'next/head'
+import Image from 'next/image'
+import myLogo from '../../public/akaigao.svg'
+import { Header } from '../Header'
+import { Navbar } from '../Navbar'
 
 export function Layout({ children }) {
   return (
@@ -7,11 +11,10 @@ export function Layout({ children }) {
         <title>akaigão</title>
       </Head>
 
-      <header>
-        <nav>
-          <p>This is an example header!</p>
-        </nav>
-      </header>
+      <Header>
+        <Image src={myLogo} alt="My Logo" width={300} />
+        <Navbar />
+      </Header>
 
       <main>{children}</main>
 
@@ -19,5 +22,5 @@ export function Layout({ children }) {
         <p>This is an exmaple footer!</p>
       </footer>
     </>
-  );
+  )
 }
