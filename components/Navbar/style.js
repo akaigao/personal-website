@@ -12,7 +12,6 @@ export const NavbarContainer = styled.nav`
   }
 
   li {
-    text-transform: uppercase;
     list-style-type: none;
   }
 `

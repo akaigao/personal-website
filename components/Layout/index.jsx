@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import myLogo from '../../public/akaigao.svg'
+import { Footer } from '../Footer'
 import { Header } from '../Header'
 import { Navbar } from '../Navbar'
 
@@ -18,9 +19,7 @@ export function Layout({ children }) {
 
       <main>{children}</main>
 
-      <footer>
-        <p>This is an exmaple footer!</p>
-      </footer>
+      <Footer />
     </>
   )
 }
