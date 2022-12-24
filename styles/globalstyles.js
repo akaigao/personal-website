@@ -7,18 +7,30 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-
   body, #__next {
-    min-height: 100vh;
-    max-width: 1440px;
 
-    font-family: sans-serif;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
     font-size: 16px;
 
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
+  }
+
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #__next {
+    max-width: 1440px;
   }
 
   a {

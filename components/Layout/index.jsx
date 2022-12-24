@@ -4,6 +4,7 @@ import myLogo from '../../public/akaigao.svg'
 import { Footer } from '../Footer'
 import { Header } from '../Header'
 import { Navbar } from '../Navbar'
+import { MainContainer } from './style'
 
 export function Layout({ children }) {
   return (
@@ -17,7 +18,7 @@ export function Layout({ children }) {
         <Navbar />
       </Header>
 
-      <main>{children}</main>
+      <MainContainer>{children}</MainContainer>
 
       <Footer />
     </>
