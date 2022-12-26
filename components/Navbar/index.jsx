@@ -11,10 +11,14 @@ export function Navbar() {
           <RedirectLink href="/about">About</RedirectLink>
         </li>
         <li>
-          <RedirectLink href="/">Portfolio</RedirectLink>
+          <RedirectLink href="/#portfolio" scroll={false}>
+            Portfolio
+          </RedirectLink>
         </li>
         <li>
-          <RedirectLink href="/">Contact</RedirectLink>
+          <RedirectLink href="/#contact" scroll={false}>
+            Contact
+          </RedirectLink>
         </li>
       </ul>
     </NavbarContainer>

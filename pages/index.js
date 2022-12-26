@@ -1,8 +1,8 @@
+import { Contact } from '../components/Contact'
 import { Project } from '../components/Project'
 import { Title } from '../components/Title'
 import {
   ApresentationSection,
-  ContactSection,
   ProjectSection
 } from '../styles/pagesstyles/homestyle'
 
@@ -11,15 +11,15 @@ export default function Home() {
     <>
       <ApresentationSection>
         <Title>
-          Wassupe everyone! 👋 <br /> I'm Igor, aka IGÃO, a developer based in
-          Brazil.
+          Wassupe everyone! 👋 <br /> My name is Igor Souza, aka IGÃO. <br />
+          I'm a Developer and Designer based in Brazil.
         </Title>
 
         <h2>Let's talk.</h2>
         <hr />
       </ApresentationSection>
 
-      <ProjectSection>
+      <ProjectSection id="portfolio">
         <Project
           title="Título 1"
           subtitle="sub 1"
@@ -46,9 +46,7 @@ export default function Home() {
         />
       </ProjectSection>
 
-      <ContactSection>
-        <Title>Contact</Title>
-      </ContactSection>
+      <Contact />
     </>
   )
 }

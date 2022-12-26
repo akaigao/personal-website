@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 export const ApresentationSection = styled.section`
+  width: 100%;
   padding: 100px 0px;
   position: relative;
 
   h2 {
     font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
     text-decoration: underline;
     cursor: pointer;
   }
@@ -32,5 +34,3 @@ export const ProjectSection = styled.section`
     gap: 25px 0px;
   }
 `
-
-export const ContactSection = styled(ApresentationSection)``

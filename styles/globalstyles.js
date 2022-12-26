@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body, #__next {
 
-    font-family: 'Unbounded', cursive;
+    font-family: 'Unbounded', sans-serif;
     font-weight: 400;
     font-size: 16px;
 
@@ -37,6 +37,12 @@ export const GlobalStyle = createGlobalStyle`
   a {
     color: black;
   }
+`
+
+export const Box = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `
 
 export const theme = {
