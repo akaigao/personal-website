@@ -1,15 +1,23 @@
 import { Project } from '../components/Project'
 import { Title } from '../components/Title'
-import { Apresentation, ProjectSection } from '../styles/pagesstyles/homestyle'
+import {
+  ApresentationSection,
+  ContactSection,
+  ProjectSection
+} from '../styles/pagesstyles/homestyle'
 
 export default function Home() {
   return (
     <>
-      <Apresentation>
+      <ApresentationSection>
         <Title>
-          Wassupe everyone 👋 - I'm Igor, aka IGÃO, a developer based in Brazil.
+          Wassupe everyone! 👋 <br /> I'm Igor, aka IGÃO, a developer based in
+          Brazil.
         </Title>
-      </Apresentation>
+
+        <h2>Let's talk.</h2>
+        <hr />
+      </ApresentationSection>
 
       <ProjectSection>
         <Project
@@ -37,6 +45,10 @@ export default function Home() {
           thumb="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
         />
       </ProjectSection>
+
+      <ContactSection>
+        <Title>Contact</Title>
+      </ContactSection>
     </>
   )
 }

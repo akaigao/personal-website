@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
