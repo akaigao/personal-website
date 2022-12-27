@@ -30,6 +30,7 @@ export default class MyDocument extends Document {
         style={{ scrollBehavior: 'smooth' }}
       >
         <Head>
+          <link rel="shortcut icon" href="favicon.svg" type="svg" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"

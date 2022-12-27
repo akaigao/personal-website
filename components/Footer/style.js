@@ -8,6 +8,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 
   font-family: 'Source Code Pro', monospace;
   letter-spacing: 0.15em;
@@ -28,5 +29,9 @@ export const FooterContainer = styled.footer`
     a {
       text-decoration: none;
     }
+  }
+
+  p {
+    text-align: right;
   }
 `
