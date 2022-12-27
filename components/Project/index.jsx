@@ -7,7 +7,7 @@ export function Project({ title, subtitle, thumb, url }) {
     <ProjectContainer>
       <ThumbContainer>
         <a href={url} target="_blank" rel="nonoopener noreferero">
-          <Thumb src={ThumbDefault} alt={title} />
+          <Thumb src={ThumbDefault} alt={title} priority />
         </a>
       </ThumbContainer>
 
