@@ -13,7 +13,7 @@ export function Contact({}) {
           technology. If you think I can help, let's talk about it! <br />
         </p>
         <br />
-        <span>my@email.com</span>
+        <span>akaigao.dev@gmail.com</span>
         <p>
           or{' '}
           <a
