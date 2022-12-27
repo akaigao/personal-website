@@ -13,7 +13,18 @@ export function Contact({}) {
           technology. If you think I can help, let's talk about it! <br />
         </p>
         <br />
-        <span>aka@igao.com</span> or LinkedIn for quick response.
+        <span>my@email.com</span>
+        <p>
+          or{' '}
+          <a
+            href="https://www.linkedin.com/in/akaigao/"
+            target="_blank"
+            rel="nonoopener noreferero"
+          >
+            LinkedIn
+          </a>{' '}
+          for quick response.
+        </p>
       </BoxContact>
     </ContactContainer>
   )
