@@ -12,7 +12,9 @@ export default function Home({ respositories }) {
           I'm a Developer and Designer based in Brazil.
         </Title>
 
-        <h2>Let's talk.</h2>
+        <h2>
+          <a href="/#contact">Let's talk.</a>
+        </h2>
         <hr />
       </ApresentationSection>
 

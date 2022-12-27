@@ -5,13 +5,31 @@ export function Footer() {
     <FooterContainer>
       <ul>
         <li>
-          <a href="/">Instagram</a>
+          <a
+            href="https://www.instagram.com/akaigao/"
+            target="_blank"
+            rel="nonoopener noreferero"
+          >
+            Instagram
+          </a>
         </li>
         <li>
-          <a href="/">Github</a>
+          <a
+            href="https://github.com/akaigao"
+            target="_blank"
+            rel="nonoopener noreferero"
+          >
+            Github
+          </a>
         </li>
         <li>
-          <a href="/">LinkdIn</a>
+          <a
+            href="https://www.linkedin.com/in/akaigao/"
+            target="_blank"
+            rel="nonoopener noreferero"
+          >
+            LinkdIn
+          </a>
         </li>
       </ul>
 
