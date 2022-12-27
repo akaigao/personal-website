@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styled from 'styled-components'
 import { TitleContainer } from '../Title/style'
 
@@ -28,8 +29,7 @@ export const ThumbContainer = styled.div`
   margin-bottom: 15px;
 `
 
-export const Thumb = styled.img`
-  width: 100%;
+export const Thumb = styled(Image)`
   height: 100%;
 
   -webkit-filter: grayscale(100%);
@@ -38,5 +38,6 @@ export const Thumb = styled.img`
 `
 
 export const TitleProject = styled(TitleContainer)`
-  font-size: 1.8em;
+  font-size: 1.3em;
+  margin-bottom: 0;
 `

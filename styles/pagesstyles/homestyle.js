@@ -18,19 +18,3 @@ export const ApresentationSection = styled.section`
     bottom: 0px;
   }
 `
-
-export const ProjectSection = styled.section`
-  max-width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 25px 10px;
-
-  @media (max-width: 910px) {
-    flex-direction: column;
-    justify-content: center;
-    gap: 25px 0px;
-  }
-`

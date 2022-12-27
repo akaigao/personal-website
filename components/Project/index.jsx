@@ -1,3 +1,4 @@
+import ThumbDefault from '../../public/thumbdefault.png'
 import { Subtitle } from '../Subtitle'
 import { ProjectContainer, Thumb, ThumbContainer, TitleProject } from './style'
 
@@ -6,7 +7,7 @@ export function Project({ title, subtitle, thumb, url }) {
     <ProjectContainer>
       <ThumbContainer>
         <a href={url} target="_blank" rel="nonoopener noreferero">
-          <Thumb src={thumb} alt={title} />
+          <Thumb src={ThumbDefault} alt={title} />
         </a>
       </ThumbContainer>
 
